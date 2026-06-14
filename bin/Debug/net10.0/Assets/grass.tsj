@@ -1,0 +1,32 @@
+{
+  "name": "grass",
+  "tilecount": 4,
+  "tilewidth": 16,
+  "tileheight": 16,
+  "tiles": [
+    {
+      "id": 0,
+      "image": "grass_001.png",
+      "imageheight": 16,
+      "imagewidth": 16
+    },
+    {
+      "id": 1,
+      "image": "grass_002.png",
+      "imageheight": 16,
+      "imagewidth": 16
+    },
+    {
+      "id": 2,
+      "image": "grass_003.png",
+      "imageheight": 16,
+      "imagewidth": 16
+    },
+    {
+      "id": 3,
+      "image": "grass_004.png",
+      "imageheight": 16,
+      "imagewidth": 16
+    }
+  ]
+}

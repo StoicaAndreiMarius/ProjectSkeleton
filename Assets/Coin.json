@@ -1,0 +1,25 @@
+{
+  "rowCount": 1,
+  "columnCount": 6,
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frameCenter": {
+    "offsetX": 8,
+    "offsetY": 8
+  },
+  "fileName": "coin.png",
+  "animations": {
+    "Spin": {
+      "startFrame": {
+        "row": 0,
+        "col": 0
+      },
+      "endFrame": {
+        "row": 0,
+        "col": 5
+      },
+      "durationMs": 700,
+      "loop": true
+    }
+  }
+}

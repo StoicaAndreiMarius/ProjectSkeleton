@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZicjN/AiE4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marius-laptop\\Desktop\\ProjectSkeleton\\TheAdventure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.9\\microsoft.extensions.dependencymodel.9.0.9.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.core\\2.23.0\\silk.net.core.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.input.common\\2.23.0\\silk.net.input.common.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.input.sdl\\2.23.0\\silk.net.input.sdl.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.maths\\2.23.0\\silk.net.maths.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.sdl\\2.23.0\\silk.net.sdl.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.windowing.common\\2.23.0\\silk.net.windowing.common.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\silk.net.windowing.sdl\\2.23.0\\silk.net.windowing.sdl.2.23.0.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\sixlabors.imagesharp\\3.1.12\\sixlabors.imagesharp.3.1.12.nupkg.sha512",
+    "C:\\Users\\marius-laptop\\.nuget\\packages\\ultz.native.sdl\\2.32.10\\ultz.native.sdl.2.32.10.nupkg.sha512"
+  ],
+  "logs": []
+}

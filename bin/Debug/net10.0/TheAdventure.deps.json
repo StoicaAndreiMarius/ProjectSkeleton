@@ -1,0 +1,269 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TheAdventure/1.0.0": {
+        "dependencies": {
+          "Silk.NET.Input.Sdl": "2.23.0",
+          "Silk.NET.SDL": "2.23.0",
+          "Silk.NET.Windowing.Sdl": "2.23.0",
+          "SixLabors.ImageSharp": "3.1.12"
+        },
+        "runtime": {
+          "TheAdventure.dll": {}
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/9.0.9": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "9.0.0.9",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
+      "Silk.NET.Core/2.23.0": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "9.0.9"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Input.Common/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Windowing.Common": "2.23.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.Input.Common.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Input.Sdl/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Input.Common": "2.23.0",
+          "Silk.NET.Windowing.Sdl": "2.23.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.Input.Sdl.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Maths/2.23.0": {
+        "runtime": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.SDL/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.23.0",
+          "Silk.NET.Maths": "2.23.0",
+          "Ultz.Native.SDL": "2.32.10"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.SDL.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Windowing.Common/2.23.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.23.0",
+          "Silk.NET.Maths": "2.23.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Silk.NET.Windowing.Common.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Silk.NET.Windowing.Sdl/2.23.0": {
+        "dependencies": {
+          "Silk.NET.SDL": "2.23.0",
+          "Silk.NET.Windowing.Common": "2.23.0"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Windowing.Sdl.dll": {
+            "assemblyVersion": "2.23.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.12": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.12.0"
+          }
+        }
+      },
+      "Ultz.Native.SDL/2.32.10": {
+        "runtimeTargets": {
+          "runtimes/ios/native/libSDL2.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/iossimulator/native/libSDL2.a": {
+            "rid": "iossimulator",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libSDL2-2.0.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSDL2-2.0.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSDL2-2.0.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2-2.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvos/native/libSDL2.a": {
+            "rid": "tvos",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvossimulator/native/libSDL2.a": {
+            "rid": "tvossimulator",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/SDL2.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TheAdventure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/9.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fNGvKct2De8ghm0Bpfq0iWthtzIWabgOTi+gJhNOPhNJIowXNEUE2eZNW/zNCzrHVA3PXg2yZ+3cWZndC2IqYA==",
+      "path": "microsoft.extensions.dependencymodel/9.0.9",
+      "hashPath": "microsoft.extensions.dependencymodel.9.0.9.nupkg.sha512"
+    },
+    "Silk.NET.Core/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D7AT/nnwlB+4RZ84XY8QNGBZMJI5z9l4CSSETIJ1wCfRJzRt/341y3MRZ4HbnFz4r/IGaWOEZr86iE+0/65yyQ==",
+      "path": "silk.net.core/2.23.0",
+      "hashPath": "silk.net.core.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Input.Common/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QbJVV7kFBHEByayXCYdJtXXI9Sp4a+QAf0IdGV6uCWkFYcEmqBYW3aaNGvFOdSwTBDbHL5T/OtOCrGh4qYhk7A==",
+      "path": "silk.net.input.common/2.23.0",
+      "hashPath": "silk.net.input.common.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Input.Sdl/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QPNnNEZ6lTXwtySxTi3EoWWE+HAbGscmPqEzAJysUDj8gscoHAsUYmmuRQsVL+fPPKtaRkhiqFB9EqkF4kq3bA==",
+      "path": "silk.net.input.sdl/2.23.0",
+      "hashPath": "silk.net.input.sdl.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Maths/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r8PdIVzME8EH0qAgbmRPO87I4GfgR2j8TofT7EMuRJDf1QluoQwnVypDoFJjQ2ZBSRsGYk5unYxxogI05Ogsmw==",
+      "path": "silk.net.maths/2.23.0",
+      "hashPath": "silk.net.maths.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.SDL/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M9HAplL9/BUAP1IWlxPq+5xWDgXcMqQNXiqFi9elbUBQPaS8TW35lMsB95/lPT5uIi+Y83OpEozJlgkp2goKjg==",
+      "path": "silk.net.sdl/2.23.0",
+      "hashPath": "silk.net.sdl.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Windowing.Common/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ThStSinmY9KQI8DGiF5XEhkLJVnBcgRTBTzL9ijg1wMZAYuckz7ykrNw04fjRm2Gryh6tCNGbvz2XaY0efeFzg==",
+      "path": "silk.net.windowing.common/2.23.0",
+      "hashPath": "silk.net.windowing.common.2.23.0.nupkg.sha512"
+    },
+    "Silk.NET.Windowing.Sdl/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3vDfLKE02IYc4LsL35INK/pGKsZgRnTYrrcWCI06x2Sfla4iFszg+QuteVjku8fP+MaL9mf8/IynmBAh0rwwng==",
+      "path": "silk.net.windowing.sdl/2.23.0",
+      "hashPath": "silk.net.windowing.sdl.2.23.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iAg6zifihXEFS/t7fiHhZBGAdCp3FavsF4i2ZIDp0JfeYeDVzvmlbY1CNhhIKimaIzrzSi5M/NBFcWvZT2rB/A==",
+      "path": "sixlabors.imagesharp/3.1.12",
+      "hashPath": "sixlabors.imagesharp.3.1.12.nupkg.sha512"
+    },
+    "Ultz.Native.SDL/2.32.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XSm79DEYh48nrkof1QbBvC5XclBZnpcaTbjbSpMBUAT2qoZ8DwftI3+YEKkmLO3pYpSuPg9yhdPt2jbxyxQdHQ==",
+      "path": "ultz.native.sdl/2.32.10",
+      "hashPath": "ultz.native.sdl.2.32.10.nupkg.sha512"
+    }
+  }
+}
